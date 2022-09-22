@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilize o cabeçalho com um fundo cinza e um pouco de preenchimento */
+.header {
+    overflow: hidden;
+    background-color: #2836ff;
+    height: 80px;
+}
+
+/* Estilize os links do cabeçalho*/
+.header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+}
+
+/* Estilize o link do logotipo (observe que definimos o mesmo valor de altura da linha e
+   tamanho da fonte para evitar que o cabeçalho aumente quando a fonte aumentar*/
+.header .logo {
+    margin-left: 50px;
+    margin-bottom: 500px;
+    height: 80px;
+    width: 80px;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+    background-color: rgb(164, 255, 225);
+    color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+    position: absolute;
+    right: 100px;
+    top: 17px;
+}
+
+/* Adicione consultas de mídia para capacidade de resposta - 
+quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do outro */
+@media screen and (max-width: 300px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
+.mainn {
+    overflow: hidden;
+    background-color: #fcffea;
+    height: 500px;
+}
+
+.mainn p {
+    color: black;
+    padding: 50px 95px;
+    align-items: center;
+}
+
+.mainn h2 {
+    position: absolute;
+    left: 86px;
+}
