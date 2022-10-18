@@ -134,6 +134,8 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
   }
   */
 .one {
+    height: auto;
+    width: auto;
     border-left: 1px solid #0004ff;
     border-right: 1px solid #0004ff;
     border-top: 1px solid #0004ff;
@@ -141,6 +143,8 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
 }
 
 .two {
+    height: auto;
+    width: auto;
     border-left: 1px solid #ffe600;
     border-right: 1px solid #ffe600;
     border-top: 1px solid #ffe600;
@@ -149,6 +153,8 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
 }
 
 .tree {
+    height: auto;
+    width: auto;
     border-left: 1px solid #ffe600;
     border-right: 1px solid #ffe600;
     border-top: 1px solid #ffe600;
@@ -156,20 +162,34 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
 }
 
 .four {
+    height: auto;
+    width: auto;
     border-left: 1px solid #0004ff;
     border-right: 1px solid #0004ff;
     border-top: 1px solid #0004ff;
     border-bottom: 1px solid #0004ff;
 }
 
-.one h3 {
-    position: absolute;
-    top: 90px;
-}
-
-.imgRed {
+.mainn h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px;
+    margin-top: 1px;
+}
+
+.imgCard {
+    max-height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+
+.imgCard2 {
+    max-height:150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
 }
