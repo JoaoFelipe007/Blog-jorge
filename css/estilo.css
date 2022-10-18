@@ -14,7 +14,7 @@ body {
 /* Estilize o cabeçalho com um fundo cinza e um pouco de preenchimento */
 .header {
     overflow: hidden;
-    background-color: #2836ffcc;
+    background-color: #212529;
     height: 80px;
 }
 
@@ -29,6 +29,7 @@ body {
     line-height: 25px;
     border-radius: 5px;
 }
+
 
 /* Estilize o link do logotipo (observe que definimos o mesmo valor de altura da linha e
    tamanho da fonte para evitar que o cabeçalho aumente quando a fonte aumentar*/
@@ -45,7 +46,7 @@ body {
 
 /* Change the background color on mouse-over */
 .header a:hover {
-    background-color: rgb(164, 255, 225);
+    background-color: rgb(244, 255, 97);
     color: black;
 }
 
@@ -136,10 +137,10 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
 .one {
     height: auto;
     width: auto;
-    border-left: 1px solid #0004ff;
-    border-right: 1px solid #0004ff;
-    border-top: 1px solid #0004ff;
-    border-bottom: 1px solid #0004ff;
+    border-left: 1px solid #212529;
+    border-right: 1px solid #212529;
+    border-top: 1px solid #212529;
+    border-bottom: 1px solid #212529;
 }
 
 .two {
@@ -155,19 +156,19 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
 .tree {
     height: auto;
     width: auto;
-    border-left: 1px solid #ffe600;
-    border-right: 1px solid #ffe600;
-    border-top: 1px solid #ffe600;
-    border-bottom: 1px solid #ffe600;
+    border-left: 1px solid #0004ff;
+    border-right: 1px solid #0004ff;
+    border-top: 1px solid #0004ff;
+    border-bottom: 1px solid #0004ff;
 }
 
 .four {
     height: auto;
     width: auto;
-    border-left: 1px solid #0004ff;
-    border-right: 1px solid #0004ff;
-    border-top: 1px solid #0004ff;
-    border-bottom: 1px solid #0004ff;
+    border-left: 1px solid #212529;
+    border-right: 1px solid #212529;
+    border-top: 1px solid #212529;
+    border-bottom: 1px solid #212529;
 }
 
 .mainn h3 {
@@ -189,7 +190,7 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
     max-height:150px;
     height: 40px;
     display: flex;
-    align-items: center;
+        align-items: center;
     justify-content: center;
     padding: 70px;
 }
