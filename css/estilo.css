@@ -162,7 +162,6 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
 }
 
 .four {
-  display: flex;
   max-width: 370px;
   height: 290px;
   border-left: 1px solid #212529;
@@ -199,4 +198,21 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
   display: flex;
   justify-content: center;
   margin: 0;
+}
+.infodiv{
+  padding: 0px;
+  background-color: aquamarine;
+  height: 300px;
+}
+
+
+.title{
+margin: 20px;
+  background-color: #ffe600;
+  width: 120px;
+  height: 80px;
+  border-left: 1px solid #ffe600;
+  border-right: 1px solid #ffe600;
+  border-top: 1px solid #ffe600;
+  border-bottom: 1px solid #ffe600;
 }
