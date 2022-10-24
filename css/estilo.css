@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Calibri;
 }
 
 html {
@@ -8,7 +9,6 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Estilize o cabeçalho com um fundo cinza e um pouco de preenchimento */
@@ -64,7 +64,7 @@ body {
 
 /* Adicione consultas de mídia para capacidade de resposta - 
 quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do outro */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
   .header a {
     float: none;
     display: block;
@@ -80,6 +80,12 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
   overflow: hidden;
   background-color: #ffffff;
   height: 680px;
+}
+
+.mainn-right {
+  position: absolute;
+  right: 100px;
+  top: 170px;
 }
 
 .mainn p {
@@ -115,8 +121,9 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
   padding: 20px;
   /*Distancia do conteudo dentro dos cards*/
   margin: 5px;
-  width: 900px;
-  height: 200px;
+  padding: 0;
+  max-width: 370px;
+  height: 320px;
 }
 
 .card p {
@@ -132,56 +139,12 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
   }
   */
 
-.one {
-  padding: 0;
-  max-width: 370px;
-  height: 290px;
-  border-left: 1px solid #212529;
-  border-right: 1px solid #212529;
-  border-top: 1px solid #212529;
-  border-bottom: 1px solid #212529;
-}
-
-.two {
-  padding: 0;
-  max-width: 370px;
-  height: 290px;
-  border-left: 1px solid #ffe600;
-  border-right: 1px solid #ffe600;
-  border-top: 1px solid #ffe600;
-  border-bottom: 1px solid #ffe600;
-}
-
-.tree {
-  max-width: 370px;
-  height: 290px;
-  border-left: 1px solid #0004ff;
-  border-right: 1px solid #0004ff;
-  border-top: 1px solid #0004ff;
-  border-bottom: 1px solid #0004ff;
-}
-
-.four {
-  max-width: 370px;
-  height: 290px;
-  border-left: 1px solid #212529;
-  border-right: 1px solid #212529;
-  border-top: 1px solid #212529;
-  border-bottom: 1px solid #212529;
-}
-
-.five {
-  max-width: 370px;
-  height: 290px;
-  border-left: 1px solid #212529;
-  border-right: 1px solid #212529;
-  border-top: 1px solid #212529;
-  border-bottom: 1px solid #212529;
-}
-
+.one,
+.two,
+.tree,
+.four,
+.five,
 .six {
-  max-width: 370px;
-  height: 290px;
   border-left: 1px solid #212529;
   border-right: 1px solid #212529;
   border-top: 1px solid #212529;
@@ -199,20 +162,125 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
   justify-content: center;
   margin: 0;
 }
-.infodiv{
-  padding: 0px;
-  background-color: aquamarine;
+.infodiv {
+  padding: 20px;
+  background-color: #3e4953;
   height: 300px;
 }
 
-
-.title{
-margin: 20px;
-  background-color: #ffe600;
-  width: 120px;
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin-top: 10px;
+  background-color: rgb(255, 160, 19);
+  width: 130px;
   height: 80px;
-  border-left: 1px solid #ffe600;
-  border-right: 1px solid #ffe600;
-  border-top: 1px solid #ffe600;
-  border-bottom: 1px solid #ffe600;
+  font-size: 25px;
+}
+
+/*.titulo h1{
+  color: azure;
+}
+*/
+.textoCard {
+  float: left;
+  margin-left: 3px;
+  margin-top: 1px;
+  width: 100%;
+  white-space: normal;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.textoCard2 {
+  float: left;
+  margin-left: 2px;
+  margin-top: 1px;
+  width: 100%;
+  white-space: normal;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+h3 {
+  display: flex;
+  margin-top: 1px;
+  margin-left: 8px;
+  align-items: center;
+}
+
+.Card2 {
+  display: flex;
+  margin-top: 1px;
+  margin-left: 8px;
+  align-items: center;
+}
+
+.post {
+  width: 80%;
+  height: 70%;
+}
+
+.textoPost {
+  float: left;
+  margin-left: 130px;
+  margin-top: 1px;
+  white-space: normal;
+  width: 100%;
+  text-align: justify;
+  overflow: hidden !important;
+}
+ #subTituloPost {
+  display: flex;
+  margin: 0px;
+  white-space: normal;
+  width: 34%;
+  text-align: left;
+  overflow: hidden !important;
+}
+
+#subTituloPost2 {
+  display: flex;
+  margin: 0px;
+  padding-left:80px;
+  white-space: normal;
+  width: 34%;
+  text-align: left;
+  overflow: hidden !important;
+}
+
+.imgpost {
+  display: flex;
+  margin-left: 250px;
+  align-items: center;
+  width: 750px;
+  height: 400px;
+}
+
+.mainnPost {
+  overflow: hidden;
+  background-color: #ffffff;
+  height: auto;
+}
+
+.mainnPost-right {
+  position: absolute;
+  right: 100px;
+  top: 170px;
+}
+
+.mainnPost p {
+  display: flex;
+  color: black;
+  align-items: center;
+  padding-top: 20px;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.mainnPost h2 {
+  position: absolute;
+  left: 86px;
 }
