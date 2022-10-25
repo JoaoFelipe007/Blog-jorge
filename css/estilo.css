@@ -34,9 +34,9 @@ body {
    tamanho da fonte para evitar que o cabeçalho aumente quando a fonte aumentar*/
 .header .logo {
   margin-left: 50px;
-  margin-bottom: 500px;
-  height: 80px;
-  width: 80px;
+  margin-top: 20px;
+  height: 40px;
+  width: 100px;
 }
 
 .header a {
@@ -180,10 +180,16 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
   font-size: 25px;
 }
 
-/*.titulo h1{
-  color: azure;
+.infoText{
+  float: left;
+  margin-left: 130px;
+  margin-top: 1px;
+  white-space: normal;
+  width: 80%;
+  text-align: justify;
+  overflow: hidden !important;
 }
-*/
+
 .textoCard {
   float: left;
   text-align: justify ;
@@ -286,3 +292,4 @@ h3 {
   position: absolute;
   left: 86px;
 }
+
