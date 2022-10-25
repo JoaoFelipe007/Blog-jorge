@@ -186,8 +186,10 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
 */
 .textoCard {
   float: left;
-  margin-left: 3px;
-  margin-top: 1px;
+  text-align: justify ;
+  font-size:15px;
+  margin-left: 1px;
+  margin-top: 9px;
   width: 100%;
   white-space: normal;
   overflow: hidden !important;
@@ -253,10 +255,10 @@ h3 {
 
 .imgpost {
   display: flex;
-  margin-left: 250px;
+  margin-left: 290px;
   align-items: center;
-  width: 750px;
-  height: 400px;
+  width: 700px;
+  height: 300px;
 }
 
 .mainnPost {
