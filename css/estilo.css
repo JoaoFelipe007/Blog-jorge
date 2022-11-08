@@ -163,9 +163,9 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
   margin: 0;
 }
 .infodiv {
-  padding: 20px;
-  background-color: #3e4953;
-  height: 300px;
+  padding: 5px;
+  background-color:#53585c;
+  height: 260px;
 }
 
 .botao {
@@ -174,26 +174,28 @@ quando a tela tiver 500px de largura ou menos, empilhe os links um em cima do ou
   justify-content: center;
   border-radius: 50px;
   margin-top: 10px;
-  background-color: rgb(255, 160, 19);
+  background-color: #ffd343;
   width: 130px;
   height: 80px;
   font-size: 25px;
 }
 
-.infoText{
+#infoText {
+  text-indent: 30px;
   float: left;
-  margin-left: 130px;
-  margin-top: 1px;
-  white-space: normal;
-  width: 80%;
+  color: white;
+  font-size: 18px;
   text-align: justify;
+  margin-left: 30px;
+  white-space: normal;
+  width: 95%;
   overflow: hidden !important;
 }
 
 .textoCard {
   float: left;
-  text-align: justify ;
-  font-size:15px;
+  text-align: justify;
+  font-size: 15px;
   margin-left: 1px;
   margin-top: 9px;
   width: 100%;
@@ -240,7 +242,7 @@ h3 {
   text-align: justify;
   overflow: hidden !important;
 }
- #subTituloPost {
+#subTituloPost {
   display: flex;
   margin: 0px;
   white-space: normal;
@@ -252,7 +254,7 @@ h3 {
 #subTituloPost2 {
   display: flex;
   margin: 0px;
-  padding-left:80px;
+  padding-left: 80px;
   white-space: normal;
   width: 34%;
   text-align: left;
@@ -274,9 +276,9 @@ h3 {
 }
 
 .mainnPost-right {
-  position: absolute;
-  right: 100px;
-  top: 170px;
+  display: flex;
+  margin-right: 2rem;
+  margin-top: 6rem;
 }
 
 .mainnPost p {
@@ -289,7 +291,20 @@ h3 {
 }
 
 .mainnPost h2 {
-  position: absolute;
-  left: 86px;
+display: flex;
+align-items: center;
+justify-content: center;
+  margin-left: 16rem;
 }
 
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #2b5b84;
+}
+
+.listaProfissao {
+  margin-top: 5rem;
+  margin-left: 7rem;
+  font-size: 16px;
+}
