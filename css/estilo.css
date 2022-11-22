@@ -232,6 +232,7 @@ h3 {
 /************/
 
 .mainnPost {
+  
   overflow: hidden;
   background-color: #ffffff;
   height: auto;
@@ -318,6 +319,11 @@ h3 {
   white-space: normal;
   text-align: left;
   overflow: hidden !important;
+}
+
+#subTituloPost3 {
+  display: flex;
+  margin-right: -8rem;
 }
 
 @media screen and (max-width:768px) and (max-height:900px){
