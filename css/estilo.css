@@ -391,6 +391,10 @@ h3 {
     margin-left: 22rem;
   }
 
+.row{
+  overflow-y: scroll;
+}
+
   .linkInstalar {
     float: left;
     margin-left: 10rem;
